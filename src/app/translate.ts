@@ -8,7 +8,7 @@ type Result = {
 };
 
 export const translate = async (selectedText: string, userTargetLang: string) => {
-  const API_KEY = '017ae3bd-1dd2-6f66-01a3-3fd2950457cf:fx';
+  const API_KEY = '';
   const API_URL = 'https://api-free.deepl.com/v2/translate';
   // const API_URL =
   //   'https://script.google.com/macros/s/AKfycbyVBjR48fqbnz3ZiP8txnq4LcJ_RxL2F_IiRvInBfxfWBWWDEdAqOU8L79qGE8A1tKQIw/exec';
